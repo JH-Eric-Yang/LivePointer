@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="assets/logo.png" width="128" alt="TapPointer icon">
+  <img src="assets/wordmark.png" width="640" alt="TapPointer">
 </p>
-
-<h1 align="center">TapPointer</h1>
 
 <p align="center">
   Your iPhone is the laser pointer. Your Mac draws it on the screen.
