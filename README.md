@@ -1,71 +1,111 @@
-# TapPointer
+<p align="center">
+  <img src="assets/logo.png" width="128" alt="TapPointer icon">
+</p>
 
-Turn your iPhone into a laser pointer for any screen your Mac is driving. Point, spotlight and draw on the TV from your phone while you present.
+<h1 align="center">TapPointer</h1>
 
-TapPointer has two parts. The Mac app draws the pointer on top of whatever is on your display and streams a live preview to the phone. The iPhone app shows that preview and turns your touch into a pointer on the big screen. This page is where you download the Mac app. The iPhone app comes from the App Store.
+<p align="center">
+  Your iPhone is the laser pointer. Your Mac draws it on the screen.
+</p>
 
-## Download the Mac app
+<p align="center">
+  <a href="https://github.com/JH-Eric-Yang/TapPointer/releases/latest"><img src="https://img.shields.io/github/v/release/JH-Eric-Yang/TapPointer?label=release&color=8B7CFF" alt="Latest release"></a>
+  <a href="https://github.com/JH-Eric-Yang/TapPointer/releases"><img src="https://img.shields.io/github/downloads/JH-Eric-Yang/TapPointer/total?color=8B7CFF" alt="Downloads"></a>
+  <img src="https://img.shields.io/badge/macOS-15%2B-black" alt="macOS 15 or later">
+  <img src="https://img.shields.io/badge/iOS-17%2B-black" alt="iOS 17 or later">
+  <img src="https://img.shields.io/badge/Apple-notarized-black" alt="Notarized by Apple">
+</p>
 
-**[Latest release](https://github.com/JH-Eric-Yang/TapPointer/releases/latest)**
+<p align="center">
+  <img src="assets/iphone-controller.png" width="720" alt="The iPhone shows a live preview of the Mac's display with pointer styles and slide thumbnails">
+</p>
 
-Each release contains:
+Presenting on a TV? A real laser pointer is useless on it. TapPointer draws the pointer straight into the picture: the Mac app paints a dot, a spotlight or an ink stroke on top of whatever is on your display, and the iPhone app, showing a live preview of that display, is the controller. Wherever your finger touches, the pointer appears on the big screen.
 
-- `TapPointer-<version>.pkg`: the installer. Open it, click Install, and TapPointer starts in the menu bar.
-- `TapPointer-<version>.zip`: the same app as a plain bundle, if you prefer to drag it into Applications yourself.
+This repository is the download page for the Mac app. The iPhone app is on the App Store.
 
-Both are signed with an Apple Developer ID and notarized by Apple, so they open like any other Mac app. A SHA-256 checksum is listed with every release.
+## Install
 
-Requires macOS 15 or later, Apple silicon or Intel.
+### Mac
 
-## Get the iPhone app
+1. Download `TapPointer-<version>.pkg` from the **[latest release](https://github.com/JH-Eric-Yang/TapPointer/releases/latest)**.
+2. Open it and click **Install**. TapPointer starts in the menu bar.
+3. Allow **Local Network** when macOS asks, so the iPhone can find the Mac.
 
-TapPointer for iPhone is available on the App Store. Requires iOS 17 or later.
+Prefer to drag and drop? Each release also has `TapPointer-<version>.zip` with the app bundle. Both are signed with an Apple Developer ID and notarized by Apple.
 
-The Mac app shows a code you can scan to find it, under *Get the iPhone App…* in the menu bar.
+### iPhone
 
-## Set up in three steps
+Get **TapPointer** on the App Store. The Mac app shows a code that opens the listing: *Get the iPhone App…* in the menu bar.
 
-1. Open TapPointer on the Mac. The pairing window appears on first launch. Allow local network access when macOS asks.
-2. Open TapPointer on the iPhone. Your Mac appears under *Nearby Macs*. Tap it, or scan the code in the Mac's pairing window.
-3. Confirm the safety code if the phone asks. Hold the phone sideways and touch the preview. The pointer appears on the Mac's display.
+## Pair once, then open and go
 
-The two devices need to be on the same Wi-Fi network or on the iPhone's Personal Hotspot. Pairing is remembered. After the first time, open the app and go.
+1. Open TapPointer on the Mac. The pairing window appears on first launch.
+2. Open TapPointer on the iPhone. The Mac appears under **Nearby Macs**. Tap it, or scan the code in the pairing window.
+3. If the phone asks, check the safety code matches the one in the Mac's window.
 
-## What it does
+Both devices need the same Wi-Fi network or the iPhone's Personal Hotspot. Pairing is remembered.
 
-- Three pointer styles: a laser dot, a spotlight that dims everything else, and ink that fades after you draw.
-- Choose any connected display, or all of them.
-- Adjust size and colour, or pinch on the phone to resize.
-- Next and previous slide, start and end the show, and jump to a slide from a thumbnail strip in Keynote and PowerPoint.
-- Change slides with the volume buttons, the Action Button, Back Tap or Shortcuts.
-- Works with anything on screen: Keynote, PowerPoint, a PDF, a browser, a demo.
+<p align="center">
+  <img src="assets/iphone-nearby.png" width="260" alt="Nearby Macs screen on the iPhone">
+</p>
+
+## Features
+
+- **Three pointer styles.** A laser dot, a spotlight that dims everything but a circle, and ink that fades a moment after you draw.
+- **Live preview.** The phone shows what the display shows. Touch it, and the pointer lands at the same spot on the TV.
+- **Any display, any app.** Pick a display from the phone, or point on all of them. Works over Keynote, PowerPoint, a PDF, a browser, a demo.
+- **Slides.** Next and previous, start and end the show, and tap a thumbnail to jump in Keynote and PowerPoint.
+- **Hands on the phone, eyes on the room.** Change slides with the volume buttons, the Action Button, Back Tap or Shortcuts.
+- **Size and colour.** Pinch to resize, pick a colour that reads on your slides.
+- **Private by design.** Phone and Mac talk directly over your network, encrypted. No account, no server, no analytics.
+
+## Requirements
+
+| | |
+|---|---|
+| Mac | macOS 15 or later, Apple silicon or Intel |
+| iPhone | iOS 17 or later |
+| Network | Same Wi-Fi, or the iPhone's Personal Hotspot |
 
 ## Permissions on the Mac
 
-TapPointer asks for these when you first use the feature. Each is optional.
+Each permission is asked for when you first use the feature, and each is optional.
 
-| Permission | Used for |
+| Permission | What it's for |
 |---|---|
 | Local Network | Letting the iPhone find the Mac |
 | Screen Recording | The live preview on the phone |
 | Accessibility | Next and previous slide in apps other than Keynote and PowerPoint |
-| Automation (Keynote, PowerPoint) | Slide position, thumbnails and jumping to a slide |
+| Automation | Slide position, thumbnails and jumping in Keynote and PowerPoint |
 
-## Privacy
+## FAQ
 
-The phone and the Mac talk directly to each other over your local network, encrypted. There is no account, no server and no analytics. Nothing leaves your network.
+**Is the Mac app free?**
+Yes. The iPhone app is a one-time purchase on the App Store.
 
-## Troubleshooting
+**The Mac doesn't show up on the phone.**
+Check both devices are on the same Wi-Fi or hotspot, that TapPointer is running on the Mac, and that Local Network is allowed for TapPointer on both the Mac (System Settings) and the iPhone (Settings).
 
-- **The Mac doesn't appear on the phone.** Check both devices are on the same Wi-Fi or hotspot, that TapPointer is running on the Mac, and that Local Network is allowed for TapPointer in System Settings on the Mac and in Settings on the iPhone.
-- **The phone asks for a safety code.** Compare it with the code in the Mac's pairing window. Pair only if they match.
-- **You renamed the Mac.** Choose *Choose another Mac* on the phone and pick it again from the list.
-- **Something else.** Open an issue on this repository with the macOS and iOS versions.
+**Why does the phone ask me to check a safety code?**
+The phone trusts only your Mac's own certificate. The code lets you confirm it's your Mac the first time, or after the Mac was reset. Pair only if the codes match.
 
-## Updates
+**I renamed my Mac.**
+Tap *Choose another Mac* on the phone and pick it again from the list.
 
-*Check for Updates…* in the Mac app's menu opens this page. Download the new installer and run it. It replaces the previous version.
+**Can I use it from Safari instead of the iPhone app?**
+Yes, with a one-time certificate profile. The steps are under *Advanced* in the Mac's pairing window.
+
+**How do I update?**
+*Check for Updates…* in the Mac app's menu opens this page. Run the new installer; it replaces the previous version.
+
+## Support
+
+Found a problem? [Open an issue](https://github.com/JH-Eric-Yang/TapPointer/issues) with your macOS and iOS versions and what you expected to happen.
 
 ---
 
-Copyright © 2026 Jiahao Yang. All rights reserved. TapPointer is distributed as a signed and notarized download; the source code is not published here.
+<p align="center">
+  Copyright © 2026 Jiahao Yang. All rights reserved.<br>
+  TapPointer is distributed as a signed and notarized download. The source code is not published here.
+</p>
