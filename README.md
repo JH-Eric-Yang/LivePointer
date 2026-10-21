@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="assets/wordmark.png" width="640" alt="TapPointer">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/wordmark-dark.png">
+    <img src="assets/wordmark-light.png" width="640" alt="TapPointer">
+  </picture>
 </p>
 
 <p align="center">
