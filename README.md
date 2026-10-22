@@ -19,7 +19,7 @@
 
 <p align="center">
   <a href="https://github.com/JH-Eric-Yang/LivePointer/blob/main/assets/livepointer.mp4">
-    <img src="assets/livepointer.gif" width="720" alt="LivePointer in 30 seconds: a phone touch becomes a pointer, a spotlight or a fading ink stroke on the TV">
+    <img src="assets/livepointer-preview.gif" width="720" alt="LivePointer in 30 seconds: a phone touch becomes a pointer, a spotlight or a fading ink stroke on the TV">
   </a><br>
   <sub><a href="https://github.com/JH-Eric-Yang/LivePointer/blob/main/assets/livepointer.mp4">Watch the video with sound</a></sub>
 </p>
