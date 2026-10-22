@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/wordmark-dark.png">
-    <img src="assets/wordmark-light.png" width="520" alt="TapPointer">
+    <img src="assets/wordmark-light.png" width="520" alt="LivePointer">
   </picture>
 </p>
 
@@ -10,21 +10,21 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/JH-Eric-Yang/TapPointer/releases/latest"><img src="https://img.shields.io/github/v/release/JH-Eric-Yang/TapPointer?label=release&color=8B7CFF" alt="Latest release"></a>
-  <a href="https://github.com/JH-Eric-Yang/TapPointer/releases"><img src="https://img.shields.io/github/downloads/JH-Eric-Yang/TapPointer/total?color=8B7CFF" alt="Downloads"></a>
+  <a href="https://github.com/JH-Eric-Yang/LivePointer/releases/latest"><img src="https://img.shields.io/github/v/release/JH-Eric-Yang/LivePointer?label=release&color=8B7CFF" alt="Latest release"></a>
+  <a href="https://github.com/JH-Eric-Yang/LivePointer/releases"><img src="https://img.shields.io/github/downloads/JH-Eric-Yang/LivePointer/total?color=8B7CFF" alt="Downloads"></a>
   <img src="https://img.shields.io/badge/macOS-15%2B-black" alt="macOS 15 or later">
   <img src="https://img.shields.io/badge/iOS-17%2B-black" alt="iOS 17 or later">
   <img src="https://img.shields.io/badge/Apple-notarized-black" alt="Notarized by Apple">
 </p>
 
 <p align="center">
-  <a href="https://github.com/JH-Eric-Yang/TapPointer/blob/main/assets/tappointer.mp4">
-    <img src="assets/tappointer.gif" width="720" alt="TapPointer in 30 seconds: a phone touch becomes a pointer, a spotlight or a fading ink stroke on the TV">
+  <a href="https://github.com/JH-Eric-Yang/LivePointer/blob/main/assets/livepointer.mp4">
+    <img src="assets/livepointer.gif" width="720" alt="LivePointer in 30 seconds: a phone touch becomes a pointer, a spotlight or a fading ink stroke on the TV">
   </a><br>
-  <sub><a href="https://github.com/JH-Eric-Yang/TapPointer/blob/main/assets/tappointer.mp4">Watch the video with sound</a></sub>
+  <sub><a href="https://github.com/JH-Eric-Yang/LivePointer/blob/main/assets/livepointer.mp4">Watch the video with sound</a></sub>
 </p>
 
-Presenting on a TV? A real laser pointer is useless on it. TapPointer draws the pointer straight into the picture: the Mac app paints a dot, a spotlight or an ink stroke on top of whatever is on your display, and the iPhone app, showing a live preview of that display, is the controller. Wherever your finger touches, the pointer appears on the big screen.
+Presenting on a TV? A real laser pointer is useless on it. LivePointer draws the pointer straight into the picture: the Mac app paints a dot, a spotlight or an ink stroke on top of whatever is on your display, and the iPhone app, showing a live preview of that display, is the controller. Wherever your finger touches, the pointer appears on the big screen.
 
 This repository is the download page for the Mac app. The iPhone app is on the App Store.
 
@@ -32,20 +32,20 @@ This repository is the download page for the Mac app. The iPhone app is on the A
 
 ### Mac
 
-1. Download `TapPointer-<version>.pkg` from the **[latest release](https://github.com/JH-Eric-Yang/TapPointer/releases/latest)**.
-2. Open it and click **Install**. TapPointer starts in the menu bar.
+1. Download `LivePointer-<version>.pkg` from the **[latest release](https://github.com/JH-Eric-Yang/LivePointer/releases/latest)**.
+2. Open it and click **Install**. LivePointer starts in the menu bar.
 3. Allow **Local Network** when macOS asks, so the iPhone can find the Mac.
 
-Prefer to drag and drop? Each release also has `TapPointer-<version>.zip` with the app bundle. Both are signed with an Apple Developer ID and notarized by Apple.
+Prefer to drag and drop? Each release also has `LivePointer-<version>.zip` with the app bundle. Both are signed with an Apple Developer ID and notarized by Apple.
 
 ### iPhone
 
-Get **TapPointer** on the App Store. The Mac app shows a code that opens the listing: *Get the iPhone App…* in the menu bar.
+Get **LivePointer** on the App Store. The Mac app shows a code that opens the listing: *Get the iPhone App…* in the menu bar.
 
 ## Pair once, then open and go
 
-1. Open TapPointer on the Mac. The pairing window appears on first launch.
-2. Open TapPointer on the iPhone. The Mac appears under **Nearby Macs**. Tap it, or scan the code in the pairing window.
+1. Open LivePointer on the Mac. The pairing window appears on first launch.
+2. Open LivePointer on the iPhone. The Mac appears under **Nearby Macs**. Tap it, or scan the code in the pairing window.
 3. If the phone asks, check the safety code matches the one in the Mac's window.
 
 Both devices need the same Wi-Fi network or the iPhone's Personal Hotspot. Pairing is remembered.
@@ -89,7 +89,7 @@ Each permission is asked for when you first use the feature, and each is optiona
 Yes. The iPhone app is a one-time purchase on the App Store.
 
 **The Mac doesn't show up on the phone.**
-Check both devices are on the same Wi-Fi or hotspot, that TapPointer is running on the Mac, and that Local Network is allowed for TapPointer on both the Mac (System Settings) and the iPhone (Settings).
+Check both devices are on the same Wi-Fi or hotspot, that LivePointer is running on the Mac, and that Local Network is allowed for LivePointer on both the Mac (System Settings) and the iPhone (Settings).
 
 **Why does the phone ask me to check a safety code?**
 The phone trusts only your Mac's own certificate. The code lets you confirm it's your Mac the first time, or after the Mac was reset. Pair only if the codes match.
@@ -105,11 +105,11 @@ Yes, with a one-time certificate profile. The steps are under *Advanced* in the 
 
 ## Support
 
-Found a problem? [Open an issue](https://github.com/JH-Eric-Yang/TapPointer/issues) with your macOS and iOS versions and what you expected to happen.
+Found a problem? [Open an issue](https://github.com/JH-Eric-Yang/LivePointer/issues) with your macOS and iOS versions and what you expected to happen.
 
 ---
 
 <p align="center">
   Copyright © 2026 Jiahao Yang. All rights reserved.<br>
-  TapPointer is distributed as a signed and notarized download. The source code is not published here.
+  LivePointer is distributed as a signed and notarized download. The source code is not published here.
 </p>
