@@ -18,7 +18,10 @@
 </p>
 
 <p align="center">
-  <img src="assets/iphone-controller.png" width="720" alt="The iPhone shows a live preview of the Mac's display with pointer styles and slide thumbnails">
+  <a href="https://github.com/JH-Eric-Yang/TapPointer/blob/main/assets/tappointer.mp4">
+    <img src="assets/tappointer.gif" width="720" alt="TapPointer in 30 seconds: a phone touch becomes a pointer, a spotlight or a fading ink stroke on the TV">
+  </a><br>
+  <sub><a href="https://github.com/JH-Eric-Yang/TapPointer/blob/main/assets/tappointer.mp4">Watch the video with sound</a></sub>
 </p>
 
 Presenting on a TV? A real laser pointer is useless on it. TapPointer draws the pointer straight into the picture: the Mac app paints a dot, a spotlight or an ink stroke on top of whatever is on your display, and the iPhone app, showing a live preview of that display, is the controller. Wherever your finger touches, the pointer appears on the big screen.
