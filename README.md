@@ -51,7 +51,7 @@ Get **LivePointer** on the App Store. The Mac app shows a code that opens the li
 Both devices need the same Wi-Fi network or the iPhone's Personal Hotspot. Pairing is remembered.
 
 <p align="center">
-  <img src="assets/iphone-nearby.png" width="260" alt="Nearby Macs screen on the iPhone">
+  <img src="assets/iphone-pairing.png" width="720" alt="On the iPhone: the Mac listed under Nearby Macs, then the safety code to check against the Mac's pairing window">
 </p>
 
 ## Features
