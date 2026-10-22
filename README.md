@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/wordmark-dark.png">
-    <img src="assets/wordmark-light.png" width="520" alt="LivePointer">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/livepointer-wordmark-dark.png">
+    <img src="assets/livepointer-wordmark-light.png" width="520" alt="LivePointer">
   </picture>
 </p>
 
