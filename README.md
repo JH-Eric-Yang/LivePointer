@@ -82,6 +82,7 @@ Each permission is asked for when you first use the feature, and each is optiona
 | Screen Recording | The live preview on the phone |
 | Accessibility | Next and previous slide in apps other than Keynote and PowerPoint |
 | Automation | Slide position, thumbnails and jumping in Keynote and PowerPoint |
+| Full Disk Access | Slide thumbnails only: Keynote and PowerPoint save the deck in their own folder, which the Mac app can only read with this. Turn thumbnails off on the phone and it is never needed |
 
 ## FAQ
 
