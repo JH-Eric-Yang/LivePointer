@@ -6,7 +6,8 @@
 </p>
 
 <p align="center">
-  Your iPhone is the laser pointer. Your Mac draws it on the screen.
+  Your iPhone is the laser pointer. Your Mac draws it on the screen.<br>
+  <b><a href="https://livepointer.net">livepointer.net</a></b>
 </p>
 
 <p align="center">
