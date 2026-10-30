@@ -19,9 +19,9 @@
 
 <p align="center">
   <a href="https://github.com/JH-Eric-Yang/LivePointer/blob/main/assets/livepointer.mp4">
-    <img src="assets/livepointer-preview.gif" width="720" alt="LivePointer in 30 seconds: a phone touch becomes a pointer, a spotlight or a fading ink stroke on the TV">
+    <img src="assets/livepointer-preview.gif" width="720" alt="LivePointer: a touch on the iPhone becomes a pointer, a spotlight or ink on the Mac's screen, and the slides move from the screen or the side buttons">
   </a><br>
-  <sub><a href="https://github.com/JH-Eric-Yang/LivePointer/blob/main/assets/livepointer.mp4">Watch the video with sound</a></sub>
+  <sub><a href="https://github.com/JH-Eric-Yang/LivePointer/blob/main/assets/livepointer.mp4">Watch the video</a></sub>
 </p>
 
 Presenting on a TV? A real laser pointer is useless on it. LivePointer draws the pointer straight into the picture: the Mac app paints a dot, a spotlight or an ink stroke on top of whatever is on your display, and the iPhone app, showing a live preview of that display, is the controller. Wherever your finger touches, the pointer appears on the big screen.
